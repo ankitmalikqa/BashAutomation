@@ -13,7 +13,7 @@ public class App
     public static void main( String[] args ) throws IOException, InterruptedException
     {
           		ProcessBuilder builder = new ProcessBuilder(
-    	            "cmd.exe", "/c", "pushCode.sh 'malik'  && dir");
+    	            "cmd.exe", "/c", "pushCode.sh 'ashoka'  && dir");
     	        builder.redirectErrorStream(true);
     	        Process p = builder.start();
     	        BufferedReader r = new BufferedReader(new InputStreamReader(p.getInputStream()));
