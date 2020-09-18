@@ -12,8 +12,7 @@ public class App
 {
     public static void main( String[] args ) throws IOException, InterruptedException
     {
-    		System.setProperty("user.dir", "C:\\Users\\ankitmalik\\testNGReport");
-    		ProcessBuilder builder = new ProcessBuilder(
+          		ProcessBuilder builder = new ProcessBuilder(
     	            "cmd.exe", "/c", "pushCode.sh 'malik'  && dir");
     	        builder.redirectErrorStream(true);
     	        Process p = builder.start();
