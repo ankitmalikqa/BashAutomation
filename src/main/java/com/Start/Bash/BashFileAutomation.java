@@ -9,11 +9,12 @@ import java.util.Scanner;
  * Hello world!
  *
  */
-public class App 
+public class BashFileAutomation 
 {
     public static void main( String[] args ) throws IOException, InterruptedException
     {
     	Scanner scan=new Scanner(System.in);
+    	System.out.println("Please provide the commit message");
     	String message=scan.next();
     	scan.close();
           		ProcessBuilder builder = new ProcessBuilder(
